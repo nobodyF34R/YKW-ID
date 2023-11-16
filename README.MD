@@ -4,6 +4,10 @@
 
 All yokai watch data extracted from togenyan's save editors.
 
+## Important
+
+the data is in little endian decimal, so you need to do `(ID).to_bytes(4, "little").hex()` if you want to go back to hex
+
 ## Licence
 
 The MIT License (MIT)
